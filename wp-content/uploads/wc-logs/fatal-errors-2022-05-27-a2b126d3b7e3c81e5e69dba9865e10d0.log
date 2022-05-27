@@ -6,3 +6,71 @@
 
 2022-05-27T07:52:51+00:00 CRITICAL syntax error, unexpected single-quoted string ").replace(/(\..*?)\..*/g, " in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\v_woocommerce_form_field.php in Zeile 159
 
+2022-05-27T11:54:13+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:51
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 51
+
+2022-05-27T12:03:25+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:53
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 53
+
+2022-05-27T12:05:24+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:53
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 53
+
+2022-05-27T12:08:03+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:59
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 59
+
+2022-05-27T12:16:59+00:00 CRITICAL Unmatched '}' in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 41
+
+2022-05-27T12:17:39+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:30
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 30
+
+2022-05-27T12:20:34+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:71
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 71
+
+2022-05-27T12:45:18+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in D:\programming\OpenServer\domains\severinsixa\wp-includes\Requests\Transport\cURL.php in Zeile 165
+
+2022-05-27T13:12:51+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:53
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 53
+
+2022-05-27T13:14:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php:53
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\search.php in Zeile 53
+

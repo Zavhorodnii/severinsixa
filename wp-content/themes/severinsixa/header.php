@@ -64,11 +64,7 @@
         <div class="header__center">
             <div class="container">
                 <div class="header__center-inner">
-                    <form class="header__search" action="/">
-                        <input class="header__search-field" type="text"
-                               placeholder="Suche nach Produkten, Kategorien und mehr..." name="search">
-                        <button class="header__search-btn"></button>
-                    </form>
+                    <?php get_search_form(); ?>
                     <?php
                     $site_logo = get_field('site_logo', 'options');
                     if (is_array($site_logo)){
