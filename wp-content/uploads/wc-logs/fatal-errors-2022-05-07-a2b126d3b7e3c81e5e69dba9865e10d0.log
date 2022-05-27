@@ -1,0 +1,319 @@
+2022-05-07T13:35:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in D:\programming\OpenServer\domains\severinsixa\wp-includes\wp-db.php on line 2162
+
+2022-05-07T16:20:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php:55
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionPromotionGrid->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php on line 55
+
+2022-05-07T16:21:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php:55
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionPromotionGrid->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php on line 55
+
+2022-05-07T16:21:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php:55
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionPromotionGrid->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(680): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): acf_ajax_fetch_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php on line 55
+
+2022-05-07T16:22:16+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php:55
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionPromotionGrid->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\PromotionGrid.php on line 55
+
+2022-05-07T19:59:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BlogSectionProductDetailExcellence::get_category_product(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 55 and exactly 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:228
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#16 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#17 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php in Zeile 228
+
+2022-05-07T19:59:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BlogSectionProductDetailExcellence::get_category_product(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 55 and exactly 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:228
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(197): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(309): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4698): do_action()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4789): wp_insert_post()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(831): wp_update_post()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Posts_Controller->update_item()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#22 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#23 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#24 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#25 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#26 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#27 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#28 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#29 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 228
+
+2022-05-07T20:01:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BlogSectionProductDetailExcellence::get_category_product(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 55 and exactly 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:228
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(197): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(309): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4698): do_action()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4789): wp_insert_post()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(831): wp_update_post()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Posts_Controller->update_item()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#22 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#23 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#24 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#25 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#26 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#27 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#28 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#29 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 228
+
+2022-05-07T20:01:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BlogSectionProductDetailExcellence::get_category_product(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 55 and exactly 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:228
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\wordpress-seo-premium\vendor\yoast\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(197): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(309): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4698): do_action()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4789): wp_insert_post()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\post.php(426): wp_update_post()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-admin\post.php(227): edit_post()
+#18 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 228
+
+2022-05-07T20:03:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BlogSectionProductDetailExcellence::get_category_product(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 55 and exactly 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:76
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#16 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#17 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php in Zeile 76
+
+2022-05-07T20:04:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_term_by(), 1 passed in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 78 and at least 2 expected in D:\programming\OpenServer\domains\severinsixa\wp-includes\taxonomy.php:1072
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(78): get_term_by()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php(55): BlogSectionProductDetailExcellence->get_category_product()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#13 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#16 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#17 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#18 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\taxonomy.php in Zeile 1072
+
+2022-05-07T20:18:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:61
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php in Zeile 61
+
+2022-05-07T20:21:45+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:61
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php in Zeile 61
+
+2022-05-07T20:23:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:61
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php in Zeile 61
+

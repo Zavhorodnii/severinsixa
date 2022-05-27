@@ -1,0 +1,156 @@
+2022-05-15T07:10:54+00:00 CRITICAL Cannot redeclare enable_taxonomy_rest() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:84) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\settings\gutenberg.php on line 11
+
+2022-05-15T07:10:55+00:00 CRITICAL Cannot redeclare enable_taxonomy_rest() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:84) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\settings\gutenberg.php in Zeile 11
+
+2022-05-15T09:32:24+00:00 CRITICAL Uncaught Error: Failed opening required 'comments_block.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php:3
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php(5): require_once()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php on line 3
+
+2022-05-15T09:39:58+00:00 CRITICAL Uncaught Error: Failed opening required 'comments_block.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php:3
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php(5): require_once()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php on line 3
+
+2022-05-15T09:40:58+00:00 CRITICAL Uncaught Error: Failed opening required 'comments_block.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php:3
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php(5): require_once()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\records.php on line 3
+
+2022-05-15T09:42:59+00:00 CRITICAL Uncaught Error: Failed opening required 'records/records.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:5
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#4 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 5
+
+2022-05-15T09:45:01+00:00 CRITICAL Uncaught Error: Failed opening required 'records/records.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:5
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#4 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 5
+
+2022-05-15T09:45:59+00:00 CRITICAL Uncaught Error: Failed opening required 'records/records.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:5
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin.php(34): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\edit.php(10): require_once('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 5
+
+2022-05-15T09:46:07+00:00 CRITICAL Uncaught Error: Failed opening required 'records/records.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:5
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(106): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(13): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php in Zeile 5
+
+2022-05-15T09:46:32+00:00 CRITICAL Cannot redeclare reg_comments() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\comments_block.php:7) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\product_cat_template.php in Zeile 6
+
+2022-05-15T09:46:36+00:00 CRITICAL Cannot redeclare reg_comments() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\comments_block.php:7) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\records\product_cat_template.php in Zeile 6
+
+2022-05-15T12:15:37+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T12:15:45+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T12:17:12+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T12:17:38+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T12:17:46+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T12:19:14+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 217
+
+2022-05-15T14:00:06+00:00 CRITICAL syntax error, unexpected token "public" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 256
+
+2022-05-15T14:00:10+00:00 CRITICAL syntax error, unexpected token "public" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 256
+
+2022-05-15T14:00:11+00:00 CRITICAL syntax error, unexpected token "public" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 256
+
+2022-05-15T14:02:07+00:00 CRITICAL syntax error, unexpected token ";" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 163
+
+2022-05-15T14:02:10+00:00 CRITICAL syntax error, unexpected token ";" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 163
+
+2022-05-15T14:02:12+00:00 CRITICAL syntax error, unexpected token ";" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 163
+
+2022-05-15T14:26:12+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 142
+
+2022-05-15T14:26:14+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 142
+
+2022-05-15T14:26:18+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 142
+
+2022-05-15T14:26:22+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 142
+
+2022-05-15T14:26:44+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php on line 142
+
+2022-05-15T17:23:44+00:00 CRITICAL Uncaught Error: Call to undefined function is_empty() in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php:58
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductProductGridFilter->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\taxonomy-product_cat.php(14): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#7 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#8 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#9 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 58
+
+2022-05-15T20:34:18+00:00 CRITICAL Uncaught TypeError: Illegal offset type in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php:13
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php(81): get_product_by_get_params()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductProductGridFilter->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\taxonomy-product_cat.php(14): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#8 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#9 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php in Zeile 13
+
+2022-05-15T20:34:48+00:00 CRITICAL Uncaught TypeError: Illegal offset type in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php:13
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php(81): get_product_by_get_params()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductProductGridFilter->render()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\taxonomy-product_cat.php(14): render_block()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#8 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#9 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php in Zeile 13
+
+2022-05-15T21:00:13+00:00 CRITICAL Unclosed '(' on line 18 does not match ']' in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 20
+

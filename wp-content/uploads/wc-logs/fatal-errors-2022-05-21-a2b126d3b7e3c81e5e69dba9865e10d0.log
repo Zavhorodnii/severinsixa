@@ -1,0 +1,73 @@
+2022-05-21T08:51:51+00:00 CRITICAL Cannot redeclare v_woocommerce_form_field() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-billing.php:52) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-billing.php in Zeile 52
+
+2022-05-21T08:53:41+00:00 CRITICAL Cannot redeclare v_woocommerce_form_field() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-billing.php:22) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-billing.php in Zeile 22
+
+2022-05-21T10:18:08+00:00 CRITICAL Uncaught ArgumentCountError: 4 arguments are required, 3 given in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\v_woocommerce_form_field.php:218
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\v_woocommerce_form_field.php(218): sprintf()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-billing.php(41): v_woocommerce_form_field()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(296): wc_get_template()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): WC_Checkout->checkout_form_billing()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\checkout\form-checkout.php(76): do_action()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\programming\\...')
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout()
+#14 [internal function]: do_shortcode_tag()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\shortcodes.php(228): preg_replace_callback()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_shortcode()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\page.php(5): the_content()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\v_woocommerce_form_field.php in Zeile 218
+
+2022-05-21T12:36:58+00:00 CRITICAL Cannot redeclare add_percentage_to_sale_badge() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php:27) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php in Zeile 27
+
+2022-05-21T13:19:47+00:00 CRITICAL Cannot redeclare add_percentage_to_sale_badge() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php:27) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php in Zeile 27
+
+2022-05-21T13:21:05+00:00 CRITICAL Uncaught Error: Call to undefined function wpm_translate_string() in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\TableBlock.php:64
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionTableBlock->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\content-single-product.php(36): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template.php(772): require('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\single-product.php(37): wc_get_template_part()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\TableBlock.php in Zeile 64
+
+2022-05-21T13:33:30+00:00 CRITICAL Uncaught Error: Call to undefined function wpm_translate_string() in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php:147
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductProductGridFilter->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\taxonomy-product_cat.php(14): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#7 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#8 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#9 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 147
+
+2022-05-21T14:38:07+00:00 CRITICAL Cannot redeclare add_percentage_to_sale_badge() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php:27) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\cart\cart.php in Zeile 27
+

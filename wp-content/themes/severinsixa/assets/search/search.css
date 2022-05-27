@@ -1,0 +1,133 @@
+
+.search {
+    margin-top: 30px;
+  }
+  
+  .search__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #BABEC1;
+  }
+  @media (max-width: 767px) {
+    .search__top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  .search__line {
+    padding-right: 20px;
+    color: #2D2D2D;
+  }
+  @media (max-width: 767px) {
+    .search__line {
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .search__key {
+    color: #2D2D2D;
+  }
+  
+  .search__count {
+    padding: 5px 15px;
+    background: #F7F6F6;
+    border-radius: 20px;
+    color: #BABEC1;
+  }
+  
+  .search__no-result {
+    height: 597px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 1919px) {
+    .search__no-result {
+      height: 440px;
+    }
+  }
+  @media (max-width: 767px) {
+    .search__no-result {
+      height: 360px;
+    }
+  }
+  
+  .search__form {
+    position: relative;
+  }
+  
+  .search__field {
+    width: 391px;
+    height: 54px;
+    padding: 0 39px 0 10px;
+    border: 1px solid #BABEC1;
+    border-radius: 4px;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    padding-bottom: 2px;
+  }
+  @media (max-width: 1023px) {
+    .search__field {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 767px) {
+    .search__field {
+      font-size: 10px;
+    }
+  }
+  .search__field::-moz-placeholder {
+    color: #C6CACE;
+  }
+  .search__field:-ms-input-placeholder {
+    color: #C6CACE;
+  }
+  .search__field::placeholder {
+    color: #C6CACE;
+  }
+  @media (max-width: 767px) {
+    .search__field {
+      width: 335px;
+    }
+  }
+
+  
+.header__btn {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/search.svg");
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  
+  .search__text {
+    margin-bottom: 30px;
+    color: #000;
+    text-align: center;
+  }
+  .search__text span {
+    color: #000;
+  }
+  
+  .search__result {
+    padding-top: 60px;
+    margin-bottom: 88px;
+  }
+  .search__result .catalog__list {
+    justify-content: center;
+  }
+  
+  .search__title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2D2D2D;
+  }

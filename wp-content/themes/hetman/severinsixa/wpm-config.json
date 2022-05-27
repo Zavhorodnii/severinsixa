@@ -1,0 +1,14 @@
+{
+	"post_types": {
+		"event": {},
+		"map": {}
+	},
+	"admin_pages": [
+		"toplevel_page_site_main_settings_page",
+		"toplevel_page_site_main_product_settings_page"
+	],
+	"options": {
+		"site_main_settings_page": {},
+		"site_main_product_settings_page": {}
+	}
+}

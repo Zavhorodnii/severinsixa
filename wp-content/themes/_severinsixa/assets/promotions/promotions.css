@@ -1,0 +1,78 @@
+
+.promotions__title {
+    text-align: center;
+    color: #2D2D2D;
+    margin-bottom: 48px;
+  }
+  @media (max-width: 767px) {
+    .promotions__title {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .promotions__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 113px;
+  }
+  @media (max-width: 1024px) {
+    .promotions__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 580px) {
+    .promotions__list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .promotions__inner {
+    max-width: 931px;
+    margin: 0 auto 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .promotions__name {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+  }
+  @media (max-width: 1023px) {
+    .promotions__name {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .promotions__img {
+    margin-bottom: 30px;
+    width: 100%;
+    max-height: 551px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .promotions__subtitle {
+    width: 100%;
+    margin-bottom: 30px;
+    color: #2D2D2D;
+  }
+  
+  .promotions__descr-item {
+    margin-bottom: 30px;
+  }
+  
+  .promotions__descr-title {
+    margin-bottom: 12px;
+    color: #E7312F;
+  }
+  
+  .promotions__descr-text {
+    color: #000000;
+  }
+  
+  .promotions__btn {
+    margin-right: auto;
+  }

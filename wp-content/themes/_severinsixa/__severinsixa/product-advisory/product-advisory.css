@@ -1,0 +1,37 @@
+
+.product-advisory__title {
+    color: #2D2D2D;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  
+  .product-advisory__subtitle {
+    margin-bottom: 30px;
+    color: #2D2D2D;
+    text-align: center;
+  }
+  
+  .product-advisory__text {
+    max-width: 821px;
+    margin: 0 auto 60px;
+    text-align: center;
+    color: #000000;
+  }
+  @media (max-width: 767px) {
+    .product-advisory__text {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .product-advisory__img {
+    max-width: 960px;
+    margin: 0 auto 60px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  @media (max-width: 767px) {
+    .product-advisory__img {
+      height: 400px;
+      margin-bottom: 30px;
+    }
+  }

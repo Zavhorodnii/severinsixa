@@ -1,0 +1,4 @@
+2022-05-20T13:06:50+00:00 CRITICAL Cannot redeclare ajax_remove_from_cart() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_remove_from_cart.php:8) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_add_coupons.php in Zeile 7
+
+2022-05-20T13:06:55+00:00 CRITICAL Cannot redeclare ajax_remove_from_cart() (previously declared in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_remove_from_cart.php:8) in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_add_coupons.php in Zeile 7
+

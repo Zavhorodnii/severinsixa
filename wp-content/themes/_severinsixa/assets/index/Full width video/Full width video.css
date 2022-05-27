@@ -1,0 +1,119 @@
+.video-block {
+  margin-bottom: 101px;
+}
+@media (max-width: 1919px) {
+  .video-block {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1023px) {
+  .video-block {
+    margin-bottom: 55px;
+  }
+}
+
+.video-block__tilte {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 0 16px;
+  max-width: 1278px;
+  text-align: center;
+}
+
+.video-block__wrapper {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 20px;
+  position: relative;
+}
+@media (max-width: 1919px) {
+  .video-block__wrapper {
+    height: 700px;
+  }
+}
+@media (max-width: 1439px) {
+  .video-block__wrapper {
+    height: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .video-block__wrapper {
+    height: 480px;
+  }
+}
+.video-block__wrapper video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.video-block__control {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-block__control::before {
+  content: "";
+  background-image: url("../img/play-button.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.video-block__control.play::before {
+  background-image: url("../img/pause-button.svg");
+}
+
+.video-block__more-btn {
+  margin: 0 auto;
+}
+
+.video-block__content {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 975px;
+  padding: 0 20px;
+}
+@media (max-width: 1023px) {
+  .video-block__content {
+    margin-top: 30px;
+  }
+}
+
+.video-block__content-title {
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.video-block__item {
+  padding-left: 34px;
+  color: #2D2D2D;
+  position: relative;
+}
+.video-block__item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2D2D2D;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.video-block__item + .video-block__item {
+  margin-top: 30px;
+}

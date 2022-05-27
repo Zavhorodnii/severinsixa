@@ -1,0 +1,287 @@
+2022-05-13T13:16:26+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:16:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:19:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:47:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:57:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:58:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T13:59:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T15:01:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\BlogGrid.php(86): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionBlogGrid->render()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\front-page.php(6): the_content()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php in Zeile 307
+
+2022-05-13T15:01:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-customize-nav-menus.php(253): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-customize-nav-menus.php(119): WP_Customize_Nav_Menus->load_available_items_query()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): WP_Customize_Nav_Menus->ajax_load_available_items()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#8 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T15:02:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T15:03:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\BlogGrid.php(86): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionBlogGrid->render()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\front-page.php(6): the_content()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php in Zeile 307
+
+2022-05-13T15:04:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\BlogGrid.php(86): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionBlogGrid->render()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\front-page.php(6): the_content()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php in Zeile 307
+
+2022-05-13T15:05:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\BlogGrid.php(86): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionBlogGrid->render()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1811): apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(560): WP_REST_Posts_Controller->prepare_item_for_response()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Posts_Controller->get_item()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(511): WP_REST_Server->dispatch()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(2860): rest_do_request()
+#17 [internal function]: rest_preload_api_request()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\block-editor.php(501): array_reduce()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-admin\edit-form-blocks.php(72): block_editor_rest_api_preload()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-admin\post.php(187): require('D:\\programming\\...')
+#21 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T15:41:30+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\taxonomy-product-cat.php:24
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#3 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\taxonomy-product-cat.php in Zeile 24
+
+2022-05-13T16:48:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T16:52:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\nav-menu.php(961): get_permalink()
+#3 [internal function]: wp_setup_nav_menu_item()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\nav-menu.php(562): array_map()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\template.php(1522): wp_nav_menu_item_post_type_meta_box()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-admin\nav-menus.php(945): do_accordion_sections()
+#7 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-13T16:53:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\BlogGrid.php(86): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionBlogGrid->render()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\front-page.php(6): the_content()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#14 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#15 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#16 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php in Zeile 307
+
+2022-05-13T20:58:40+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php:59
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductCategoryFilter->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\page_category.php(10): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#12 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#13 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 59
+
+2022-05-13T21:00:03+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php:59
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductCategoryFilter->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\page_category.php(10): the_content()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#11 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#12 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#13 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php in Zeile 59
+

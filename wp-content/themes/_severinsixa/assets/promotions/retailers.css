@@ -1,0 +1,54 @@
+
+.retailers {
+    margin-bottom: 90px;
+  }
+  @media (max-width: 1439px) {
+    .retailers {
+      margin-bottom: 60px;
+    }
+  }
+  @media (max-width: 1023px) {
+    .retailers {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .retailers__title {
+    margin-bottom: 64px;
+    text-align: center;
+    color: #2D2D2D;
+  }
+  @media (max-width: 1023px) {
+    .retailers__title {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .retailers__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1056px;
+    margin: 0 auto;
+    grid-gap: 30px;
+  }
+  @media (max-width: 767px) {
+    .retailers__list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .retailers__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retailers__item picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retailers__item img {
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }

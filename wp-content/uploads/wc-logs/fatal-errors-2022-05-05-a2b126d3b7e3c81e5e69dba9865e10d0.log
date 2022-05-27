@@ -1,0 +1,40 @@
+2022-05-05T13:37:05+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-post.php on line 232
+
+2022-05-05T20:24:34+00:00 CRITICAL Uncaught Error: Failed opening required 'register/register.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:7
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(126): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#4 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 7
+
+2022-05-05T20:24:36+00:00 CRITICAL Uncaught Error: Failed opening required 'register/register.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:7
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(126): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin.php(34): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\wp-admin\post.php(12): require_once('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 7
+
+2022-05-05T20:24:40+00:00 CRITICAL Uncaught Error: Failed opening required 'register/register.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:7
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(126): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(22): require_once('D:\\programming\\...')
+#4 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 7
+
+2022-05-05T20:24:40+00:00 CRITICAL Uncaught Error: Failed opening required 'register/register.php' (include_path='.') in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php:7
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-settings.php(555): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-config.php(126): require_once('D:\\programming\\...')
+#2 D:\programming\OpenServer\domains\severinsixa\wp-load.php(50): require_once('D:\\programming\\...')
+#3 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(13): require_once('D:\\programming\\...')
+#4 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#5 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 7
+

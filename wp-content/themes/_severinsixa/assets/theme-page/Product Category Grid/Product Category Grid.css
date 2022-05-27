@@ -1,0 +1,113 @@
+.category-nav {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .category-nav--slider {
+    margin-bottom: 53px;
+  }
+  @media (max-width: 767px) {
+    .category-nav--slider {
+      margin-bottom: 30px;
+    }
+  }
+  .category-nav--theme {
+    margin-bottom: 30px;
+  }
+  @media (max-width: 767px) {
+    .category-nav--theme {
+      margin-bottom: 27px;
+    }
+  }
+  .category-nav--theme .category-nav__item {
+    max-width: 291.61px;
+  }
+  @media (max-width: 767px) {
+    .category-nav--theme .category-nav__item {
+      max-width: 336.81px;
+      height: 242.55px;
+    }
+  }
+  .category-nav--overview {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .category-nav--overview .category-nav__item {
+    width: 330.61px;
+    height: 238.09px;
+  }
+  @media (max-width: 767px) {
+    .category-nav--overview .category-nav__item {
+      max-width: 336.81px;
+      height: 242.55px;
+    }
+  }
+  
+  .category-nav__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .category-nav__wrapper .category-nav__item {
+    margin: 0 15px 30px;
+  }
+  @media (max-width: 767px) {
+    .category-nav__wrapper .category-nav__item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .category-nav__slider .swiper-wrapper {
+    margin-bottom: 30px;
+  }
+  
+  .category-nav__item {
+    display: block;
+    width: 100%;
+    height: 211px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+  .category-nav__item::before {
+    content: "";
+    background: #2D2D2D;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  .category-nav__item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: 0.3s linear;
+  }
+  @media (min-width: 1024px) {
+    .category-nav__item:hover img {
+      transform: scale(1.1);
+    }
+  }
+  @media (max-width: 767px) {
+    .category-nav__item {
+      height: 180px;
+    }
+  }
+  
+  .category-nav__name {
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+  }

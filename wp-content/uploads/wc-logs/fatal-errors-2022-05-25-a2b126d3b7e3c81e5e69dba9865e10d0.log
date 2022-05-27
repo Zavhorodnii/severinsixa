@@ -1,0 +1,28 @@
+2022-05-25T12:21:45+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in D:\programming\OpenServer\domains\severinsixa\wp-includes\pomo\translations.php in Zeile 106
+
+2022-05-25T14:46:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\myaccount\navigation.php:28
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3164): wc_get_template()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): woocommerce_account_navigation()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\myaccount\my-account.php(31): do_action()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\programming\\...')
+#7 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(123): wc_get_template()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\shortcodes.php(356): WC_Shortcodes::my_account()
+#12 [internal function]: do_shortcode_tag()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\shortcodes.php(228): preg_replace_callback()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_shortcode()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\post-template.php(253): apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\page.php(5): the_content()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#19 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#20 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#21 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\woocommerce\myaccount\navigation.php in Zeile 28
+

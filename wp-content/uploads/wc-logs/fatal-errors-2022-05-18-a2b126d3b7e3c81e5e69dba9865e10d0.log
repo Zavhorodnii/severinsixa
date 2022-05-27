@@ -1,0 +1,168 @@
+2022-05-18T06:19:39+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+
+2022-05-18T06:19:41+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(300): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->get_items()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(511): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(2860): rest_do_request()
+#15 [internal function]: rest_preload_api_request()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\block-editor.php(501): array_reduce()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-admin\edit-form-blocks.php(72): block_editor_rest_api_preload()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-admin\post.php(187): require('D:\\programming\\...')
+#19 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+
+2022-05-18T06:50:59+00:00 CRITICAL syntax error, unexpected token "=" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 90
+
+2022-05-18T06:52:42+00:00 CRITICAL syntax error, unexpected token "=" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\functions.php on line 90
+
+2022-05-18T07:14:40+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+
+2022-05-18T09:17:09+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+
+2022-05-18T09:23:34+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+
+2022-05-18T09:26:45+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php:88
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductDetailExcellence->render()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(921): render_block()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): do_blocks()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(606): apply_filters()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(408): WP_REST_Revisions_Controller->prepare_item_for_response()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(239): WP_REST_Autosaves_Controller->prepare_item_for_response()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#17 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#19 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#20 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#21 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#22 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#23 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\ProductDetailExcellence.php on line 88
+

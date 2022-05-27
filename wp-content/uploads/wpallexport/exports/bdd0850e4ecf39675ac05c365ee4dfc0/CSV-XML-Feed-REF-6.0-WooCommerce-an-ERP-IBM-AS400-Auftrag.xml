@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<orderid><![CDATA[329]]></orderid>
+		<title><![CDATA[Order - März 13, 2022 @ 11:18 AM]]></title>
+		<produktid><![CDATA[29]]></produktid>
+		<sku><![CDATA[TS1000]]></sku>
+		<produktname><![CDATA[Toaster 1000]]></produktname>
+		<anzahl><![CDATA[1]]></anzahl>
+		<artikelkosten><![CDATA[84.87]]></artikelkosten>
+		<artikelgesamt><![CDATA[84.87395]]></artikelgesamt>
+		<itemtax><![CDATA[16.13]]></itemtax>
+		<itemtaxtotal><![CDATA[16.13]]></itemtaxtotal>
+		<orderlineid><![CDATA[23]]></orderlineid>
+		<orderlinetitle><![CDATA[Toaster 1000]]></orderlinetitle>
+		<billingfirstname><![CDATA[Ian]]></billingfirstname>
+		<billinglastname><![CDATA[Schäfer]]></billinglastname>
+		<billingcompany><![CDATA[]]></billingcompany>
+		<billingaddress1><![CDATA[Annastrasse 38]]></billingaddress1>
+		<billingaddress2><![CDATA[]]></billingaddress2>
+		<billingcity><![CDATA[Göttingen]]></billingcity>
+		<billingpostcode><![CDATA[37075]]></billingpostcode>
+		<billingcountry><![CDATA[DE]]></billingcountry>
+		<billingstate><![CDATA[DE-NI]]></billingstate>
+		<billingemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></billingemailaddress>
+		<customeraccountemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></customeraccountemailaddress>
+		<billingphone><![CDATA[+41796702859]]></billingphone>
+		<shippingfirstname><![CDATA[Ian]]></shippingfirstname>
+		<shippinglastname><![CDATA[Schäfer]]></shippinglastname>
+		<shippingcompany><![CDATA[]]></shippingcompany>
+		<shippingaddress1><![CDATA[Annastrasse 38]]></shippingaddress1>
+		<shippingaddress2><![CDATA[]]></shippingaddress2>
+		<shippingcity><![CDATA[Göttingen]]></shippingcity>
+		<shippingpostcode><![CDATA[37075]]></shippingpostcode>
+		<shippingcountry><![CDATA[DE]]></shippingcountry>
+		<shippingstate><![CDATA[DE-NI]]></shippingstate>
+		<verkaufskanal><![CDATA[Marketplace]]></verkaufskanal>
+		<steuerschlssel><![CDATA[DE-MWST-1]]></steuerschlssel>
+		<steuersatz><![CDATA[19.0000]]></steuersatz>
+		<ratename><![CDATA[MWST]]></ratename>
+		<steuerbetrag><![CDATA[16.13]]></steuerbetrag>
+		<gesamtbetragsteuern><![CDATA[16.13]]></gesamtbetragsteuern>
+		<versandmethode><![CDATA[]]></versandmethode>
+		<versandkosten><![CDATA[]]></versandkosten>
+		<shippingtaxes><![CDATA[]]></shippingtaxes>
+	</node>
+	<node>
+		<orderid><![CDATA[332]]></orderid>
+		<title><![CDATA[Order - März 13, 2022 @ 11:23 AM]]></title>
+		<produktid><![CDATA[326]]></produktid>
+		<sku><![CDATA[]]></sku>
+		<produktname><![CDATA[Toaster Bundle]]></produktname>
+		<anzahl><![CDATA[1]]></anzahl>
+		<artikelkosten><![CDATA[100.84]]></artikelkosten>
+		<artikelgesamt><![CDATA[100.840336]]></artikelgesamt>
+		<itemtax><![CDATA[19.16]]></itemtax>
+		<itemtaxtotal><![CDATA[19.16]]></itemtaxtotal>
+		<orderlineid><![CDATA[30]]></orderlineid>
+		<orderlinetitle><![CDATA[Toaster Bundle]]></orderlinetitle>
+		<billingfirstname><![CDATA[Ian]]></billingfirstname>
+		<billinglastname><![CDATA[Schäfer]]></billinglastname>
+		<billingcompany><![CDATA[]]></billingcompany>
+		<billingaddress1><![CDATA[Annastrasse 38]]></billingaddress1>
+		<billingaddress2><![CDATA[]]></billingaddress2>
+		<billingcity><![CDATA[Göttingen]]></billingcity>
+		<billingpostcode><![CDATA[37075]]></billingpostcode>
+		<billingcountry><![CDATA[DE]]></billingcountry>
+		<billingstate><![CDATA[DE-NI]]></billingstate>
+		<billingemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></billingemailaddress>
+		<customeraccountemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></customeraccountemailaddress>
+		<billingphone><![CDATA[+41796702859]]></billingphone>
+		<shippingfirstname><![CDATA[Ian]]></shippingfirstname>
+		<shippinglastname><![CDATA[Schäfer]]></shippinglastname>
+		<shippingcompany><![CDATA[]]></shippingcompany>
+		<shippingaddress1><![CDATA[Annastrasse 38]]></shippingaddress1>
+		<shippingaddress2><![CDATA[]]></shippingaddress2>
+		<shippingcity><![CDATA[Göttingen]]></shippingcity>
+		<shippingpostcode><![CDATA[37075]]></shippingpostcode>
+		<shippingcountry><![CDATA[DE]]></shippingcountry>
+		<shippingstate><![CDATA[DE-NI]]></shippingstate>
+		<verkaufskanal><![CDATA[Webshop]]></verkaufskanal>
+		<steuerschlssel><![CDATA[DE-MWST-1]]></steuerschlssel>
+		<steuersatz><![CDATA[19.0000]]></steuersatz>
+		<ratename><![CDATA[MWST]]></ratename>
+		<steuerbetrag><![CDATA[19.16]]></steuerbetrag>
+		<gesamtbetragsteuern><![CDATA[19.16]]></gesamtbetragsteuern>
+		<versandmethode><![CDATA[]]></versandmethode>
+		<versandkosten><![CDATA[]]></versandkosten>
+		<shippingtaxes><![CDATA[]]></shippingtaxes>
+	</node>
+	<node>
+		<orderid><![CDATA[332]]></orderid>
+		<title><![CDATA[Order - März 13, 2022 @ 11:23 AM]]></title>
+		<produktid><![CDATA[29]]></produktid>
+		<sku><![CDATA[TS1000]]></sku>
+		<produktname><![CDATA[Toaster 1000]]></produktname>
+		<anzahl><![CDATA[1]]></anzahl>
+		<artikelkosten><![CDATA[0.00]]></artikelkosten>
+		<artikelgesamt><![CDATA[0]]></artikelgesamt>
+		<itemtax><![CDATA[0]]></itemtax>
+		<itemtaxtotal><![CDATA[0]]></itemtaxtotal>
+		<orderlineid><![CDATA[33]]></orderlineid>
+		<orderlinetitle><![CDATA[Toaster 1000]]></orderlinetitle>
+		<billingfirstname><![CDATA[Ian]]></billingfirstname>
+		<billinglastname><![CDATA[Schäfer]]></billinglastname>
+		<billingcompany><![CDATA[]]></billingcompany>
+		<billingaddress1><![CDATA[Annastrasse 38]]></billingaddress1>
+		<billingaddress2><![CDATA[]]></billingaddress2>
+		<billingcity><![CDATA[Göttingen]]></billingcity>
+		<billingpostcode><![CDATA[37075]]></billingpostcode>
+		<billingcountry><![CDATA[DE]]></billingcountry>
+		<billingstate><![CDATA[DE-NI]]></billingstate>
+		<billingemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></billingemailaddress>
+		<customeraccountemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></customeraccountemailaddress>
+		<billingphone><![CDATA[+41796702859]]></billingphone>
+		<shippingfirstname><![CDATA[Ian]]></shippingfirstname>
+		<shippinglastname><![CDATA[Schäfer]]></shippinglastname>
+		<shippingcompany><![CDATA[]]></shippingcompany>
+		<shippingaddress1><![CDATA[Annastrasse 38]]></shippingaddress1>
+		<shippingaddress2><![CDATA[]]></shippingaddress2>
+		<shippingcity><![CDATA[Göttingen]]></shippingcity>
+		<shippingpostcode><![CDATA[37075]]></shippingpostcode>
+		<shippingcountry><![CDATA[DE]]></shippingcountry>
+		<shippingstate><![CDATA[DE-NI]]></shippingstate>
+		<verkaufskanal><![CDATA[Webshop]]></verkaufskanal>
+		<steuerschlssel><![CDATA[DE-MWST-1]]></steuerschlssel>
+		<steuersatz><![CDATA[19.0000]]></steuersatz>
+		<ratename><![CDATA[MWST]]></ratename>
+		<steuerbetrag><![CDATA[19.16]]></steuerbetrag>
+		<gesamtbetragsteuern><![CDATA[19.16]]></gesamtbetragsteuern>
+		<versandmethode><![CDATA[]]></versandmethode>
+		<versandkosten><![CDATA[]]></versandkosten>
+		<shippingtaxes><![CDATA[]]></shippingtaxes>
+	</node>
+	<node>
+		<orderid><![CDATA[332]]></orderid>
+		<title><![CDATA[Order - März 13, 2022 @ 11:23 AM]]></title>
+		<produktid><![CDATA[48]]></produktid>
+		<sku><![CDATA[sku-toaster-crossselling]]></sku>
+		<produktname><![CDATA[Toaster Zubehör Crosselling]]></produktname>
+		<anzahl><![CDATA[1]]></anzahl>
+		<artikelkosten><![CDATA[0.00]]></artikelkosten>
+		<artikelgesamt><![CDATA[0]]></artikelgesamt>
+		<itemtax><![CDATA[0]]></itemtax>
+		<itemtaxtotal><![CDATA[0]]></itemtaxtotal>
+		<orderlineid><![CDATA[36]]></orderlineid>
+		<orderlinetitle><![CDATA[Toaster Zubehör Crosselling]]></orderlinetitle>
+		<billingfirstname><![CDATA[Ian]]></billingfirstname>
+		<billinglastname><![CDATA[Schäfer]]></billinglastname>
+		<billingcompany><![CDATA[]]></billingcompany>
+		<billingaddress1><![CDATA[Annastrasse 38]]></billingaddress1>
+		<billingaddress2><![CDATA[]]></billingaddress2>
+		<billingcity><![CDATA[Göttingen]]></billingcity>
+		<billingpostcode><![CDATA[37075]]></billingpostcode>
+		<billingcountry><![CDATA[DE]]></billingcountry>
+		<billingstate><![CDATA[DE-NI]]></billingstate>
+		<billingemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></billingemailaddress>
+		<customeraccountemailaddress><![CDATA[ian.schaefer+de@sixa.ch]]></customeraccountemailaddress>
+		<billingphone><![CDATA[+41796702859]]></billingphone>
+		<shippingfirstname><![CDATA[Ian]]></shippingfirstname>
+		<shippinglastname><![CDATA[Schäfer]]></shippinglastname>
+		<shippingcompany><![CDATA[]]></shippingcompany>
+		<shippingaddress1><![CDATA[Annastrasse 38]]></shippingaddress1>
+		<shippingaddress2><![CDATA[]]></shippingaddress2>
+		<shippingcity><![CDATA[Göttingen]]></shippingcity>
+		<shippingpostcode><![CDATA[37075]]></shippingpostcode>
+		<shippingcountry><![CDATA[DE]]></shippingcountry>
+		<shippingstate><![CDATA[DE-NI]]></shippingstate>
+		<verkaufskanal><![CDATA[Webshop]]></verkaufskanal>
+		<steuerschlssel><![CDATA[DE-MWST-1]]></steuerschlssel>
+		<steuersatz><![CDATA[19.0000]]></steuersatz>
+		<ratename><![CDATA[MWST]]></ratename>
+		<steuerbetrag><![CDATA[19.16]]></steuerbetrag>
+		<gesamtbetragsteuern><![CDATA[19.16]]></gesamtbetragsteuern>
+		<versandmethode><![CDATA[]]></versandmethode>
+		<versandkosten><![CDATA[]]></versandkosten>
+		<shippingtaxes><![CDATA[]]></shippingtaxes>
+	</node>
+</data>

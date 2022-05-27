@@ -1,0 +1,140 @@
+
+.intro {
+    position: relative;
+    margin-bottom: 32px;
+  }
+  
+  .intro__slide {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  @media (max-width: 1650px) {
+    .intro__slide {
+      height: 650px;
+    }
+  }
+  @media (max-width: 1439px) {
+    .intro__slide {
+      height: 550px;
+    }
+  }
+  @media (max-width: 767px) {
+    .intro__slide {
+      height: 423px;
+    }
+  }
+  
+  .intro__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .intro__img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  @media (min-width: 1921px) {
+    .intro__img img {
+      -o-object-position: top;
+      object-position: top;
+    }
+  }
+  .intro__img::before {
+    content: "";
+    background: #000000;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .intro__title {
+    max-width: 840px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+  }
+  
+  .intro__nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro__info-btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    overflow: hidden;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    position: relative;
+  }
+  .intro__info-btn::before {
+    content: "";
+    height: 1px;
+    background-color: #fff;
+    transition: 0.2s linear;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  @media (min-width: 1024px) {
+    .intro__info-btn:hover::before {
+      transform: translateX(-110%);
+    }
+  }
+  @media (max-width: 767px) {
+    .intro__info-btn {
+      margin-left: auto;
+    }
+  }
+  
+  .intro-button-next {
+    width: 51px;
+    height: 51px;
+    background-image: url("../img/intro-arrow.svg");
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    z-index: 2;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  @media (max-width: 1650px) {
+    .intro-button-next {
+      display: none;
+    }
+  }
+  
+  .intro-button-prev {
+    width: 51px;
+    height: 51px;
+    background-image: url("../img/intro-arrow.svg");
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    z-index: 2;
+    transform: translateY(-50%);
+  }
+  @media (max-width: 1650px) {
+    .intro-button-prev {
+      display: none;
+    }
+  }

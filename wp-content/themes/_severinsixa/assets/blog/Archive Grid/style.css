@@ -1,0 +1,122 @@
+.archival {
+  margin-bottom: 30px;
+}
+.archival .page-status {
+  margin-top: 30px;
+}
+.archival .choices__list--dropdown .choices__item {
+  padding-right: 10px;
+}
+
+.archival-filter {
+  display: flex;
+  margin: 80px 0 10px;
+}
+
+.archival-filter-item {
+  margin-right: 30px;
+}
+
+.archival-period__title {
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 120%;
+  letter-spacing: 0.08em;
+  color: #004080;
+}
+
+.archival-period-item {
+  display: flex;
+  border-top: 1px solid #BABEC1;
+  padding: 30px 0;
+}
+.archival-period-item:last-child {
+  padding-bottom: 0;
+}
+
+.archival-period-item__img {
+  width: 333px;
+  height: 225px;
+  margin-right: 50px;
+}
+.archival-period-item__img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.archival-period-item__info {
+  min-height: 100%;
+  width: calc(100% - 480px);
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.archival-period-item__top {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.archival-period-item__top span {
+  color: #BABEC1;
+}
+.archival-period-item__top span:first-child {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #BABEC1;
+}
+
+.archival-period-item__descr {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 120%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .archival-period-item__info {
+    width: calc(100% - 320px);
+  }
+
+  .archival-period-item__img {
+    width: 270px;
+    height: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .archival-filter {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .archival-period-item {
+    flex-direction: column;
+  }
+
+  .archival-period-item__info {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .archival-period-item__descr {
+    font-size: 30px;
+  }
+}
+@media (max-width: 580px) {
+  .archival-filter {
+    margin-top: 50px;
+  }
+
+  .archival-period-item__img {
+    width: 100%;
+    margin-right: 0;
+  }
+}

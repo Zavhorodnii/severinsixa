@@ -1,0 +1,237 @@
+.order {
+    margin-bottom: 148px;
+  }
+  @media (max-width: 1023px) {
+    .order {
+      margin-bottom: 66px;
+    }
+  }
+  @media (max-width: 767px) {
+    .order {
+      margin-bottom: 26px;
+    }
+  }
+  
+  .order__title {
+    margin-bottom: 30px;
+  }
+  @media (max-width: 1023px) {
+    .order__title {
+      margin-top: 72px;
+    }
+  }
+  @media (max-width: 767px) {
+    .order__title {
+      margin-top: 42px;
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+  
+  .order__message {
+    padding: 20px 20px 20px 64px;
+    margin-bottom: 30px;
+    background: #F3F8F2;
+    border-radius: 4px;
+    color: #67B160;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    position: relative;
+  }
+  @media (max-width: 1023px) {
+    .order__message {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 767px) {
+    .order__message {
+      font-size: 14px;
+    }
+  }
+  .order__message::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/add.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .order__message-email {
+    color: #67B160;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+  }
+  @media (max-width: 1023px) {
+    .order__message-email {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 767px) {
+    .order__message-email {
+      font-size: 14px;
+    }
+  }
+  
+  .order__delivery {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #BABEC1;
+    border-radius: 4px;
+  }
+  @media (max-width: 767px) {
+    .order__delivery {
+      flex-direction: column;
+    }
+  }
+  
+  .order__delivery-info {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  @media (max-width: 1023px) {
+    .order__delivery-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  @media (max-width: 767px) {
+    .order__delivery-info {
+      margin-bottom: 16px;
+      margin-right: 0;
+    }
+  }
+  
+  .order__delivery-title {
+    color: #000000;
+    margin-right: 20px;
+  }
+  @media (max-width: 1023px) {
+    .order__delivery-title {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    .order__delivery-title {
+      font-size: 21px;
+      line-height: 120%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .order__delivery-btn {
+      width: 295px;
+    }
+  }
+  
+  .order__delivery-date {
+    color: #000000;
+    padding-right: 20px;
+  }
+  @media (max-width: 767px) {
+    .order__delivery-date {
+      font-size: 14px;
+    }
+  }
+  
+  .order__table {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  .order__table--order-info .order__row:last-child {
+    border-bottom: 1px solid #C6CACE;
+    padding-bottom: 20px;
+  }
+  
+  .order__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 767px) {
+    .order__row {
+      flex-direction: column;
+    }
+  }
+  .order__row + .order__row {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #C6CACE;
+  }
+  
+  .order__column-left {
+    width: calc(50% - 17.5px);
+  }
+  @media (max-width: 1023px) {
+    .order__column-left {
+      width: calc(50% - 9px);
+    }
+  }
+  @media (max-width: 767px) {
+    .order__column-left {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  }
+  .order__column-left p {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #2D2D2D;
+  }
+  
+  .order__column-right {
+    width: calc(50% - 17.5px);
+  }
+  @media (max-width: 1023px) {
+    .order__column-right {
+      width: calc(50% - 9px);
+    }
+  }
+  @media (max-width: 767px) {
+    .order__column-right {
+      width: 100%;
+    }
+  }
+  .order__column-right p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2D2D2D;
+    margin-top: 13px;
+  }
+  .order__column-right p:first-child {
+    margin-top: 0;
+  }
+  @media (max-width: 1023px) {
+    .order__column-right p {
+      font-size: 16px;
+    }
+  }
+  
+  .order__info-title {
+    margin-bottom: 50px;
+    color: #000000;
+  }
+  
+  @media (max-width: 767px) {
+    .order__btn {
+      width: 100%;
+      max-width: 335px;
+      margin: 0 auto;
+    }
+  }
+  

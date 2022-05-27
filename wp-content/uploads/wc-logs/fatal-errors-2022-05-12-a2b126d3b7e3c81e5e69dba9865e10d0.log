@@ -1,0 +1,120 @@
+2022-05-12T09:05:21+00:00 CRITICAL Unterminated comment starting line 151 in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php on line 151
+
+2022-05-12T09:05:22+00:00 CRITICAL Unterminated comment starting line 151 in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php on line 151
+
+2022-05-12T09:05:29+00:00 CRITICAL Unterminated comment starting line 151 in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php in Zeile 151
+
+2022-05-12T09:05:34+00:00 CRITICAL Unterminated comment starting line 151 in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php in Zeile 151
+
+2022-05-12T11:05:58+00:00 CRITICAL syntax error, unexpected variable "$terms" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php in Zeile 148
+
+2022-05-12T11:06:00+00:00 CRITICAL syntax error, unexpected variable "$terms" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php in Zeile 148
+
+2022-05-12T11:06:14+00:00 CRITICAL syntax error, unexpected variable "$terms" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\ajax\ajax_get_product_comparison.php in Zeile 148
+
+2022-05-12T22:08:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(495): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\media.php(4001): get_attachment_link()
+#4 [internal function]: wp_prepare_attachment_for_js()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\ajax-actions.php(3003): array_map()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): wp_ajax_query_attachments()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-12T22:13:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4522): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\revision.php(334): wp_insert_post()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_autosave()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#17 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#18 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-12T22:14:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(495): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\media.php(4001): get_attachment_link()
+#4 [internal function]: wp_prepare_attachment_for_js()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\ajax-actions.php(3003): array_map()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): wp_ajax_query_attachments()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-12T22:14:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\post.php(4522): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\revision.php(334): wp_insert_post()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(392): _wp_put_post_revision()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(229): WP_REST_Autosaves_Controller->create_post_autosave()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Autosaves_Controller->create_item()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-includes\rest-api.php(386): WP_REST_Server->serve_request()
+#10 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): rest_api_loaded()
+#11 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#12 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(396): do_action_ref_array()
+#14 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp.php(758): WP->parse_request()
+#15 D:\programming\OpenServer\domains\severinsixa\wp-includes\functions.php(1310): WP->main()
+#16 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(16): wp()
+#17 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#18 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-12T22:16:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(495): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\media.php(4001): get_attachment_link()
+#4 [internal function]: wp_prepare_attachment_for_js()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\ajax-actions.php(3003): array_map()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): wp_ajax_query_attachments()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+
+2022-05-12T22:17:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WPM_Gutenberg does not have a method "link" in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(189): WP_Hook->apply_filters()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(304): apply_filters()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-includes\link-template.php(495): get_permalink()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-includes\media.php(4001): get_attachment_link()
+#4 [internal function]: wp_prepare_attachment_for_js()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-admin\includes\ajax-actions.php(3003): array_map()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(307): wp_ajax_query_attachments()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\plugin.php(474): WP_Hook->do_action()
+#9 D:\programming\OpenServer\domains\severinsixa\wp-admin\admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-hook.php on line 307
+

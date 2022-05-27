@@ -1,0 +1,593 @@
+.account {
+  margin-top: 40px;
+}
+
+.account__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-nav {
+  margin-bottom: 500px;
+  width: 331px;
+}
+
+.account-nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #2D2D2D;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid #00000000;
+  transition: all 0.1s linear;
+}
+.account-nav-item:hover {
+  border: 1px solid #00000030;
+}
+.account-nav-item .svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  stroke: #BABEC1;
+  fill: none;
+}
+.account-nav-item.active {
+  border: 1px solid #000000;
+  font-weight: 800;
+}
+.account-nav-item.active .svg {
+  stroke: #000000;
+}
+
+.account-center {
+  width: calc(100% - 720px);
+}
+.account-center.order-page {
+  margin-bottom: 50px;
+}
+
+.account__top {
+  padding: 18px 20px;
+}
+
+.account__title {
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.account__descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.account-right {
+  width: 330px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #F7F6F6;
+  border-radius: 4px;
+}
+.account-right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.account-right__btn {
+  margin-left: 10px;
+}
+
+.orders-item {
+  margin-top: 25px;
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.orders-item-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orders-item__title {
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2D2D2D;
+}
+
+.orders-item__code {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #BABEC1;
+  margin-top: 10px;
+}
+
+.orders-item__details {
+  margin-left: 30px;
+}
+
+.orders-item-products {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orders-item-products__item {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.orders-item-products__item--img {
+  width: 103px;
+  height: 103px;
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+}
+.orders-item-products__item--img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.orders-item-products__item--name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-top: 25px;
+}
+
+.orders-item__deliver--top {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2D2D2D;
+  margin-bottom: 30px;
+}
+.orders-item__deliver--top p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #BABEC1;
+  margin-top: 10px;
+}
+
+.orders-item__deliver--status {
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.status-grey {
+  background: #F7F6F6;
+  color: #BABEC1;
+}
+
+.status-green {
+  background: #F3F8F2;
+  color: #67B160;
+}
+
+.adresses {
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.adresses__descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+}
+
+.adresses__title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2D2D2D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.adresses__btn {
+  position: relative;
+  margin-left: 60px;
+}
+.adresses__btn::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/edit.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  left: -30px;
+}
+
+.adresses-filled .adresses__status {
+  margin-bottom: 30px;
+}
+
+.adresses__list li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-bottom: 10px;
+}
+.adresses__list li:last-child {
+  margin-bottom: 0;
+}
+
+.adresses__form .input-wrap {
+  margin-bottom: 30px;
+}
+.adresses__form .select-block-wrap {
+  margin-bottom: 30px;
+}
+
+.details-form {
+  margin-top: 25px;
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.details-form .input-wrap {
+  margin-bottom: 30px;
+}
+
+.details-form__botom {
+  background: #F7F6F6;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.details-form__botom .input {
+  background-color: transparent;
+}
+.details-form__botom .input-wrap:last-child {
+  margin-bottom: 0;
+}
+
+.account-payment {
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.account-payment__btn {
+  margin-top: 30px;
+}
+
+.account-payment__title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.account-payment__icons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.account-payment__icons div {
+  background: #F7F6F6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.payment-input-wrap {
+  margin-top: 30px;
+  background: #F7F6F6;
+  padding: 20px;
+}
+.payment-input-wrap .payment-input {
+  background: #FFFFFF;
+  position: relative;
+  height: 58px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+}
+.payment-input-wrap .payment-input::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../img/card-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  left: 10px;
+  top: 17px;
+}
+.payment-input-wrap .payment-input div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 15px;
+  top: 16px;
+}
+.payment-input-wrap .payment-input div input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  border: 1px solid #BABEC1;
+  border-radius: 4px;
+  text-align: center;
+}
+.payment-input-wrap .payment-input div input::-moz-placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .payment-input div input:-ms-input-placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .payment-input div input::placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .card {
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+  padding: 0 205px 0 40px;
+  border-radius: 4px;
+}
+.payment-input-wrap .card::-moz-placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .card:-ms-input-placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .card::placeholder {
+  color: #C6CACE;
+}
+.payment-input-wrap .data {
+  width: 46px;
+  height: 26px;
+  margin-right: 5px;
+}
+.payment-input-wrap .code {
+  width: 84px;
+  height: 26px;
+}
+
+@media (max-width: 1300px) {
+  .account-nav {
+    width: 250px;
+  }
+
+  .account-nav-item {
+    padding: 10px 20px;
+  }
+
+  .account-right {
+    width: 290px;
+  }
+
+  .account-center {
+    width: calc(100% - 600px);
+  }
+}
+@media (max-width: 1150px) {
+  .account__descr {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .account__title {
+    font-size: 20px;
+  }
+
+  .account__top {
+    padding: 10px 20px;
+  }
+
+  .account-right {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .account-right__btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .account-center {
+    width: calc(100% - 280px);
+  }
+}
+@media (max-width: 800px) {
+  .account__wrapper {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .account-nav {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .account-nav__wrap {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .account-nav-item {
+    white-space: nowrap;
+  }
+
+  .account {
+    margin-top: 20px;
+  }
+
+  .account-right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .account-right__btn {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .account-center {
+    width: 100%;
+  }
+
+  .account__descr {
+    font-size: 14px;
+  }
+
+  .orders-item__title {
+    font-size: 20px;
+  }
+
+  .orders-item__deliver--top {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .orders-item__deliver--top p {
+    font-size: 16px;
+  }
+
+  .orders-item-products__item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .orders-item-products__item--name {
+    margin-top: 15px;
+  }
+
+  .orders-item-products {
+    margin-top: 20px;
+  }
+
+  .orders-item__deliver--status {
+    font-size: 16px;
+  }
+}
+@media (max-width: 580px) {
+  .orders-item__title {
+    font-size: 18px;
+  }
+
+  .adresses__title {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .adresses__title .adresses__btn {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .adresses__form .input-wrap {
+    margin-bottom: 20px;
+  }
+
+  .adresses__descr {
+    font-size: 16px;
+  }
+
+  .details-form .input-wrap {
+    margin-bottom: 20px;
+  }
+
+  .details-form__botom {
+    margin-bottom: 20px;
+  }
+
+  .account-payment__icons {
+    margin-top: 20px;
+  }
+
+  .payment-input-wrap {
+    margin-top: 20px;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .account-payment__btn {
+    margin-top: 20px;
+  }
+
+  .payment-input-wrap .payment-input {
+    height: 100px;
+  }
+
+  .payment-input-wrap .card {
+    height: 45px;
+    padding-right: 20px;
+  }
+
+  .payment-input-wrap .payment-input div {
+    right: inherit;
+    top: inherit;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .payment-input-wrap .payment-input::before {
+    top: 10px;
+  }
+
+  .select-block-wrap {
+    margin-bottom: 20px !important;
+  }
+}

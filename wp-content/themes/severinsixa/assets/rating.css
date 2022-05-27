@@ -1,0 +1,51 @@
+.rating {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.rating__item {
+  fill: #BABEC1;
+}
+.rating__item + .rating__item {
+  margin-right: 3px;
+}
+
+.rating__icon {
+  width: 19px;
+  height: 19px;
+  fill: inherit;
+}
+
+.rating[data-total-value="1"] .rating__item:nth-child(n+5),
+.rating[data-total-value="2"] .rating__item:nth-child(n+4),
+.rating[data-total-value="3"] .rating__item:nth-child(n+3),
+.rating[data-total-value="4"] .rating__item:nth-child(n+2),
+.rating[data-total-value="5"] .rating__item:nth-child(n+1) {
+  fill: #FCE61D;
+}
+
+.rating-black .rating__item {
+  stroke: #2D2D2D;
+  fill: none;
+  margin-right: 5px;
+}
+
+.rating.rating-black[data-total-value="1"] .rating__item:nth-child(n+5),
+.rating.rating-black[data-total-value="2"] .rating__item:nth-child(n+4),
+.rating.rating-black[data-total-value="3"] .rating__item:nth-child(n+3),
+.rating.rating-black[data-total-value="4"] .rating__item:nth-child(n+2),
+.rating.rating-black[data-total-value="5"] .rating__item:nth-child(n+1) {
+  fill: #2D2D2D;
+}
+
+.rating-black {
+  margin-right: 5px;
+  margin-left: 5px;
+  transform: translateY(2px);
+}
+
+.rating-black .rating__icon {
+  width: 15px;
+  height: 15px;
+}

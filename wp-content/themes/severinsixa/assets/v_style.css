@@ -1,0 +1,19 @@
+.error{
+    border: 2px solid red !important;
+}
+
+.v_margin_b_10{
+    margin-bottom: 10px;
+}
+
+.none{
+    display: none !important;
+}
+
+.v_button_style{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.account-center{
+    width: initial!important;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!-- <svg class="svg">
+    <use xlink:href="img/sprite.svg#telega"></use>
+</svg> -->
+
+<body>
+<div class="page">
+    <main>
+        <section class="cart">
+            <div class="highlight-bar">
+                <div class="container">
+                    <p class="highlight-bar__text body-s">
+                        Entdecke unseren WINTER SALE – deine Lieblingsprodukte im Winter : Bis zu 50%
+                    </p>
+                    <button class="highlight-bar__btn"></button>
+                </div>
+            </div>
+            <div class="cart__header">
+                <div class="container">
+                    <div class="cart__header-inner">
+                        <a href="#" class="back-page">
+                            Weitershoppen
+                        </a>
+                        <a class="cart__header-logo header__logo" href="/">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <form class="cart__form" action="/">
+                <div class="container">
+                    <div class="cart__form-inner">
+                        <div class="cart__content">
+                            <div class="cart__info">
+                                <h2 class="cart__title h2">Kasse</h2>
+                            </div>
+                            <div class="cart__payment-details">
+                                <p class="cart__payment-title">
+                                    Rechnungsdetails
+                                </p>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <div class="select-block-wrap">
+                                        <select class="select">
+                                            <option value hidden selected>Anrede</option>
+                                            <option value="">Anrede1</option>
+                                            <option value="">Anrede2</option>
+                                            <option value="">Anrede3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="cart__input-group">
+                                    <input class="input" type="text" name="email" placeholder="E-Mail-Adresse">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input" type="text" name="name" placeholder="Vorname">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input" type="text" name="surname" placeholder="Nachname">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input" type="text" name="street" placeholder="Strasse">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input input--small" type="text" name="number" placeholder="Nummer">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input" type="text" name="city" placeholder="Ort/Stadt">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <input class="input" type="text" name="postal-code" placeholder="Postleitzahl">
+                                </div>
+                                <div class="cart__input-group cart__input-group--small">
+                                    <div class="select-block-wrap">
+                                        <select class="select">
+                                            <option value hidden selected>Land</option>
+                                            <option value="">Land1</option>
+                                            <option value="">Land2</option>
+                                            <option value="">Land3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="cart__input-group">
+                                    <input class="input" type="text" name="phone" placeholder="Telefonnummer">
+                                </div>
+                            </div>
+                        </div>
+                        <aside class="cart__aside">
+
+                            <div class="cart__sum">
+                                <p class="cart__aside-title">GESAMTBETRAG</p>
+                                <div class="cart__sum-item">
+                                    <p class="cart__sum-title">Subtotal</p>
+                                    <p class="cart__sum-value body-m">€ 394,00</p>
+                                </div>
+                                <div class="cart__sum-item">
+                                    <p class="cart__sum-title">Versandkosten</p>
+                                    <p class="cart__sum-value">€ 4.95</p>
+                                </div>
+                                <div class="cart__sum-item">
+                                    <p class="cart__sum-title">MwSt</p>
+                                    <p class="cart__sum-value">€ 2.78</p>
+                                </div>
+                                <div class="cart__sum-item cart__sum-item--total">
+                                    <p class="cart__sum-title">Total</p>
+                                    <p class="cart__sum-value body-m-bold">€ 401,73</p>
+                                </div>
+                            </div>
+                            <div class="cart__delivery-date">
+                                <p class="cart__aside-title">LIEFERDATUM</p>
+                                <time datetime="2022-03-18">18.03.2022</time>
+                            </div>
+
+                            <div class="cart__order">
+                                <p class="cart__aside-title">Bestellung</p>
+                                <div class="cart__order-top">
+                                    <p class="cart__order-amount">1 Artikel</p>
+                                    <p class="cart__order-sum">394,00 €</p>
+                                </div>
+                                <div class="cart__order-wrapper">
+                                    <div class="cart__product">
+                                        <picture class="cart__product-img">
+                                            <source srcset="" type="image/webp">
+                                            <img src="img/product/product-5.png" alt="">
+                                        </picture>
+                                        <div class="cart__product-info">
+                                            <p class="cart__product-name h5">SEPURO Pro</p>
+                                            <div class="cart__product-center">
+                                                <p class="cart__product-model">HV 7187</p>
+                                                <p class="cart__product-vendor-code">Description</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart__product">
+                                        <picture class="cart__product-img">
+                                            <source srcset="" type="image/webp">
+                                            <img src="img/product/product-5.png" alt="">
+                                        </picture>
+                                        <div class="cart__product-info">
+                                            <p class="cart__product-name h5">SEPURO Pro</p>
+                                            <div class="cart__product-center">
+                                                <p class="cart__product-model">HV 7187</p>
+                                                <p class="cart__product-vendor-code">Description</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart__product">
+                                        <picture class="cart__product-img">
+                                            <source srcset="" type="image/webp">
+                                            <img src="img/product/product-5.png" alt="">
+                                        </picture>
+                                        <div class="cart__product-info">
+                                            <p class="cart__product-name h5">SEPURO Pro</p>
+                                            <div class="cart__product-center">
+                                                <p class="cart__product-model">HV 7187</p>
+                                                <p class="cart__product-vendor-code">Description</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__delivery">
+                                <p class="cart__aside-title">Versandart</p>
+                                <label class="cart__checkbox checkbox--cirlce">
+                                    <input class="checkbox__input" type="checkbox" name="delivery" checked>
+                                    <p class="checkbox__content">
+                                        Standard
+                                    </p>
+                                </label>
+                                <label class="cart__checkbox checkbox checkbox--cirlce">
+                                    <input class="checkbox__input" type="checkbox" name="delivery">
+                                    <p class="checkbox__content">
+                                        Express Lieferung + € 10
+                                    </p>
+                                </label>
+                            </div>
+                            <div class="cart__payment">
+                                <p class="cart__aside-title">Zahlungsart</p>
+                                <div class="cart__payment-item">
+                                    <label class="cart__checkbox checkbox--cirlce">
+                                        <input class="checkbox__input" type="checkbox" name="payment">
+                                        <p class="checkbox__content">
+                                            Kreditkarte
+                                        </p>
+                                    </label>
+                                    <div class="cart__payment-icon">
+                                        <img src="img/payment-icon5.svg" alt="">
+                                    </div>
+                                    <div class="cart__payment-icon">
+                                        <img src="img/payment-icon3.svg" alt="">
+                                    </div>
+                                    <div class="cart__payment-icon">
+                                        <img src="img/payment-icon4.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="cart__payment-item">
+                                    <label class="cart__checkbox checkbox--cirlce">
+                                        <input class="checkbox__input" type="checkbox" name="payment">
+                                        <p class="checkbox__content">
+                                            PayPal
+                                        </p>
+                                    </label>
+                                    <div class="cart__payment-icon">
+                                        <img src="img/payment-icon6.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="cart__payment-item">
+                                    <label class="cart__checkbox checkbox--cirlce">
+                                        <input class="checkbox__input" type="checkbox" name="payment">
+                                        <p class="checkbox__content">
+                                            Rechnung
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="cart__promocode">
+                                <p class="cart__promocode-title">Gutschein oder Promocode</p>
+                                <div class="cart__promocode-field">
+                                    <input class="cart__promocode-input input" type="text" name="promocode"
+                                           placeholder="Coupon code einfügen">
+                                    <button class="cart__promocode-btn"></button>
+                                </div>
+                            </div>
+                            <button class="cart__aside-btn btn btn--black" type="button">Kauf abschliessen</button>
+                        </aside>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <section class="payment-methods">
+        <div class="payment-methods__item">
+            <img src="img/payment-icon1.svg" alt="payment-icon">
+        </div>
+        <div class="payment-methods__item">
+            <img src="img/payment-icon2.svg" alt="payment-icon">
+        </div>
+        <div class="payment-methods__item">
+            <img src="img/payment-icon3.svg" alt="payment-icon">
+        </div>
+        <div class="payment-methods__item">
+            <img src="img/payment-icon4.svg" alt="payment-icon">
+        </div>
+        <div class="payment-methods__item">
+            <img src="img/payment-icon5.svg" alt="payment-icon">
+        </div>
+        <div class="payment-methods__item">
+            <img src="img/payment-icon6.svg" alt="payment-icon">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <form class="footer__form" action="/">
+                <h2 class="footer__title h3">Sichere dir 10% auf deine erste Bestellung!</h2>
+                <p class="footer__text">Für den Newsletter anmelden und exklusive Angebote erhalten</p>
+                <input class="footer__input input" type="text" placeholder="E-Mail-Adresse">
+                <button class="btn btn--black">Jetzt anmelden</button>
+            </form>
+            <nav class="footer__nav">
+                <div class="footer__nav-block">
+                    <p class="footer__nav-title">Einkaufen</p>
+                    <a class="footer__nav-link body-s" href="#">Kaffee</a>
+                    <a class="footer__nav-link body-s" href="#">Grill</a>
+                    <a class="footer__nav-link body-s" href="#">Küche</a>
+                    <a class="footer__nav-link body-s" href="#">Backen</a>
+                    <a class="footer__nav-link body-s" href="#">Kühl- & Gefrierschränke</a>
+                    <a class="footer__nav-link body-s" href="#">Haushalt</a>
+                    <a class="footer__nav-link body-s" href="#">Haarpflege</a>
+                    <a class="footer__nav-link body-s" href="#">Sales</a>
+                    <a class="footer__nav-link body-s" href="#">Aktionen</a>
+                </div>
+                <div class="footer__nav-block">
+                    <p class="footer__nav-title">INNOVATIONEN</p>
+                    <a class="footer__nav-link body-s" href="#">SEVO</a>
+                    <a class="footer__nav-link body-s" href="#">SEPURO</a>
+                    <a class="footer__nav-link body-s" href="#">FILKA</a>
+                </div>
+                <div class="footer__nav-block">
+                    <p class="footer__nav-title">UNTERNEHMEN</p>
+                    <a class="footer__nav-link body-s" href="#">Über uns</a>
+                    <a class="footer__nav-link body-s" href="#">Karriere</a>
+                    <a class="footer__nav-link body-s" href="#">Pressemitteilungen</a>
+                    <a class="footer__nav-link body-s" href="#">Blogazin</a>
+                </div>
+                <div class="footer__nav-block">
+                    <p class="footer__nav-title">Hilfe & Kontakt</p>
+                    <a class="footer__nav-link body-s" href="#">Versandinformationen</a>
+                    <a class="footer__nav-link body-s" href="#">FAQ</a>
+                    <a class="footer__nav-link body-s" href="#">Service Center</a>
+                    <a class="footer__nav-link body-s" href="#">Widerrufsbelehrung</a>
+                    <a class="footer__nav-link body-s" href="#">Ersatzteile</a>
+                    <a class="footer__nav-link body-s" href="#">Händlerbereich</a>
+                    <a class="footer__nav-link body-s" href="#">Produktberatung</a>
+                    <a class="footer__nav-link body-s" href="#">Kontakt</a>
+                </div>
+            </nav>
+            <div class="footer__info">
+                <div class="footer__info-left">
+                    <a class="footer__logo" href="/">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <p class="footer__copyright body-s">© 2022 SEVERIN Elektrogeräte GmbH</p>
+                </div>
+                <div class="footer__info-right">
+                    <img src="img/award-1.png" alt="">
+                    <img src="img/award-2.png" alt="">
+                    <img src="img/award-3.png" alt="">
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <nav class="footer__bottom-nav">
+                    <a class="footer__bottom-link body-s " href="#">Deutschland/Deutsch</a>
+                    <a class="footer__bottom-link body-s" href="#">AGB</a>
+                    <a class="footer__bottom-link body-s" href="#">Datenschutz</a>
+                    <a class="footer__bottom-link body-s" href="#">Impressum</a>
+                </nav>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/instagram.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/pinterest.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/xing.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/facebook.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/linkedin.svg" alt="">
+                    </a>
+                    <a class="footer__social-link" href="#" target="_blank">
+                        <img src="img/youtube.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

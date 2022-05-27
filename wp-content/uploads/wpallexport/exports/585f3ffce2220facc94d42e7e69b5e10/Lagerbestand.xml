@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[29]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<sku><![CDATA[TS1000]]></sku>
+		<stock><![CDATA[98]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[47]]></id>
+		<title><![CDATA[Toaster Upsell]]></title>
+		<sku><![CDATA[sku-toaster-upsell]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[48]]></id>
+		<title><![CDATA[Toaster Zubehör Crosselling]]></title>
+		<sku><![CDATA[sku-toaster-crossselling]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[152]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<sku><![CDATA[TS1000]]></sku>
+		<stock><![CDATA[98]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[155]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<sku><![CDATA[TS1000]]></sku>
+		<stock><![CDATA[98]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[158]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<sku><![CDATA[TS1000]]></sku>
+		<stock><![CDATA[98]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[161]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<sku><![CDATA[TS1000]]></sku>
+		<stock><![CDATA[98]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[249]]></id>
+		<title><![CDATA[HV 7166 Kabelloser 2-in-1 Hand- und Stielsauger - Weiss-Rot]]></title>
+		<sku><![CDATA[7166000]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[250]]></id>
+		<title><![CDATA[HV 7185 - SEPURO - Akku Hand- und Stielsauger mit Staubbeutel]]></title>
+		<sku><![CDATA[7185000]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[253]]></id>
+		<title><![CDATA[HV 7187 - SEPURO Pro - Akku Hand- und Stielsauger mit Staubbeutel]]></title>
+		<sku><![CDATA[7187000]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[256]]></id>
+		<title><![CDATA[ZB 7225 1x E12 Abluftfilter & 1x Motorschutzfilter]]></title>
+		<sku><![CDATA[7225000]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+	<node>
+		<id><![CDATA[326]]></id>
+		<title><![CDATA[Toaster Bundle]]></title>
+		<sku><![CDATA[]]></sku>
+		<stock><![CDATA[]]></stock>
+	</node>
+</data>

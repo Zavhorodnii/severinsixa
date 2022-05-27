@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[29]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<content><![CDATA[Dies ist die Kategoriebeschreibung für den Toaster 1000]]></content>
+		<sku><![CDATA[TS1000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Blau]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[1000]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[47]]></id>
+		<title><![CDATA[Toaster Upsell]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[sku-toaster-upsell]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Grün]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[300]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[48]]></id>
+		<title><![CDATA[Toaster Zubehör Crosselling]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[sku-toaster-crossselling]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[152]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<content><![CDATA[Dies ist die Kategoriebeschreibung für den Toaster 1000]]></content>
+		<sku><![CDATA[TS1000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Blau]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[1000]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[155]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<content><![CDATA[Dies ist die Kategoriebeschreibung für den Toaster 1000]]></content>
+		<sku><![CDATA[TS1000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Blau]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[1000]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[158]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<content><![CDATA[Dies ist die Kategoriebeschreibung für den Toaster 1000]]></content>
+		<sku><![CDATA[TS1000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Blau]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[1000]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[161]]></id>
+		<title><![CDATA[Toaster 1000]]></title>
+		<content><![CDATA[Dies ist die Kategoriebeschreibung für den Toaster 1000]]></content>
+		<sku><![CDATA[TS1000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Blau]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[1000]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:2:{s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:10:"pa_gewicht";a:6:{s:4:"name";s:10:"pa_gewicht";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[249]]></id>
+		<title><![CDATA[HV 7166 Kabelloser 2-in-1 Hand- und Stielsauger - Weiss-Rot]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[7166000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[Li-Ion: 25.9V 2.500 mAh]]></produktakku>
+		<produktanzahlaufstze><![CDATA[3]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[4.82 kg]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Weiss-Rot]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[0.5 Liter]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[E-12]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[75 dB]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[3 h]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[60 Minuten]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[77,8 x 29,2 x 13,8 cm]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[400 Watt]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[23 kPa]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[3]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[Nein]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[Kabelloser Staubsauger]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:15:{s:17:"pa_staubsaugertyp";a:6:{s:4:"name";s:17:"pa_staubsaugertyp";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:7:"pa_akku";a:6:{s:4:"name";s:7:"pa_akku";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:13:"pa_saugstufen";a:6:{s:4:"name";s:13:"pa_saugstufen";s:5:"value";s:0:"";s:8:"position";i:3;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:19:"pa_anzahl-aufsaetze";a:6:{s:4:"name";s:19:"pa_anzahl-aufsaetze";s:5:"value";s:0:"";s:8:"position";i:4;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:23:"pa_geraeuschentwicklung";a:6:{s:4:"name";s:23:"pa_geraeuschentwicklung";s:5:"value";s:0:"";s:8:"position";i:5;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:20:"pa_fassungsvermoegen";a:6:{s:4:"name";s:20:"pa_fassungsvermoegen";s:5:"value";s:0:"";s:8:"position";i:6;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:16:"pa_filtereinsatz";a:6:{s:4:"name";s:16:"pa_filtereinsatz";s:5:"value";s:0:"";s:8:"position";i:7;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_staubbeutel";a:6:{s:4:"name";s:14:"pa_staubbeutel";s:5:"value";s:0:"";s:8:"position";i:8;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:24:"pa_laufzeit-leistung-eco";a:6:{s:4:"name";s:24:"pa_laufzeit-leistung-eco";s:5:"value";s:0:"";s:8:"position";i:9;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:11:"pa_ladezeit";a:6:{s:4:"name";s:11:"pa_ladezeit";s:5:"value";s:0:"";s:8:"position";i:10;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:15:"pa_saugleistung";a:6:{s:4:"name";s:15:"pa_saugleistung";s:5:"value";s:0:"";s:8:"position";i:11;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_saugstaerke";a:6:{s:4:"name";s:14:"pa_saugstaerke";s:5:"value";s:0:"";s:8:"position";i:12;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:22:"pa_masse-des-produktes";a:6:{s:4:"name";s:22:"pa_masse-des-produktes";s:5:"value";s:0:"";s:8:"position";i:13;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:26:"pa_bruttogewicht-inkl-verp";a:6:{s:4:"name";s:26:"pa_bruttogewicht-inkl-verp";s:5:"value";s:0:"";s:8:"position";i:14;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[250]]></id>
+		<title><![CDATA[HV 7185 - SEPURO - Akku Hand- und Stielsauger mit Staubbeutel]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[7185000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[Li-Ion: 18V 3.000 mAh]]></produktakku>
+		<produktanzahlaufstze><![CDATA[3]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[6.84 kg]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Anthrazit]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[1 Liter]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[HEPA 13]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[79 dB]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[&lt; 1 h]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[60 Minuten]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[112 x 12 x 22 cm]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[280 Watt]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[20 kPa]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[3]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[Ja]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[Kabelloser Staubsauger]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:15:{s:17:"pa_staubsaugertyp";a:6:{s:4:"name";s:17:"pa_staubsaugertyp";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:7:"pa_akku";a:6:{s:4:"name";s:7:"pa_akku";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:13:"pa_saugstufen";a:6:{s:4:"name";s:13:"pa_saugstufen";s:5:"value";s:0:"";s:8:"position";i:3;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:19:"pa_anzahl-aufsaetze";a:6:{s:4:"name";s:19:"pa_anzahl-aufsaetze";s:5:"value";s:0:"";s:8:"position";i:4;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:20:"pa_fassungsvermoegen";a:6:{s:4:"name";s:20:"pa_fassungsvermoegen";s:5:"value";s:0:"";s:8:"position";i:5;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:16:"pa_filtereinsatz";a:6:{s:4:"name";s:16:"pa_filtereinsatz";s:5:"value";s:0:"";s:8:"position";i:6;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:23:"pa_geraeuschentwicklung";a:6:{s:4:"name";s:23:"pa_geraeuschentwicklung";s:5:"value";s:0:"";s:8:"position";i:7;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_staubbeutel";a:6:{s:4:"name";s:14:"pa_staubbeutel";s:5:"value";s:0:"";s:8:"position";i:8;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:24:"pa_laufzeit-leistung-eco";a:6:{s:4:"name";s:24:"pa_laufzeit-leistung-eco";s:5:"value";s:0:"";s:8:"position";i:9;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:11:"pa_ladezeit";a:6:{s:4:"name";s:11:"pa_ladezeit";s:5:"value";s:0:"";s:8:"position";i:10;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:15:"pa_saugleistung";a:6:{s:4:"name";s:15:"pa_saugleistung";s:5:"value";s:0:"";s:8:"position";i:11;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_saugstaerke";a:6:{s:4:"name";s:14:"pa_saugstaerke";s:5:"value";s:0:"";s:8:"position";i:12;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:22:"pa_masse-des-produktes";a:6:{s:4:"name";s:22:"pa_masse-des-produktes";s:5:"value";s:0:"";s:8:"position";i:13;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:26:"pa_bruttogewicht-inkl-verp";a:6:{s:4:"name";s:26:"pa_bruttogewicht-inkl-verp";s:5:"value";s:0:"";s:8:"position";i:14;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[253]]></id>
+		<title><![CDATA[HV 7187 - SEPURO Pro - Akku Hand- und Stielsauger mit Staubbeutel]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[7187000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[Li-Ion: 18V 3.000 mAh]]></produktakku>
+		<produktanzahlaufstze><![CDATA[4]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[6.84 kg]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[Schwarz-Matt]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[1 Liter]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[HEPA 13]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[79 dB]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[&lt; 1 h]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[60 Minuten]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[112 x 12 x 22 cm]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[450 Watt]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[24 kPa]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[4]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[Ja]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[Kabelloser Staubsauger]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[a:15:{s:17:"pa_staubsaugertyp";a:6:{s:4:"name";s:17:"pa_staubsaugertyp";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_farbe";a:6:{s:4:"name";s:8:"pa_farbe";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:7:"pa_akku";a:6:{s:4:"name";s:7:"pa_akku";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:13:"pa_saugstufen";a:6:{s:4:"name";s:13:"pa_saugstufen";s:5:"value";s:0:"";s:8:"position";i:3;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:19:"pa_anzahl-aufsaetze";a:6:{s:4:"name";s:19:"pa_anzahl-aufsaetze";s:5:"value";s:0:"";s:8:"position";i:4;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:23:"pa_geraeuschentwicklung";a:6:{s:4:"name";s:23:"pa_geraeuschentwicklung";s:5:"value";s:0:"";s:8:"position";i:5;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:20:"pa_fassungsvermoegen";a:6:{s:4:"name";s:20:"pa_fassungsvermoegen";s:5:"value";s:0:"";s:8:"position";i:6;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:16:"pa_filtereinsatz";a:6:{s:4:"name";s:16:"pa_filtereinsatz";s:5:"value";s:0:"";s:8:"position";i:7;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_staubbeutel";a:6:{s:4:"name";s:14:"pa_staubbeutel";s:5:"value";s:0:"";s:8:"position";i:8;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:24:"pa_laufzeit-leistung-eco";a:6:{s:4:"name";s:24:"pa_laufzeit-leistung-eco";s:5:"value";s:0:"";s:8:"position";i:9;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:11:"pa_ladezeit";a:6:{s:4:"name";s:11:"pa_ladezeit";s:5:"value";s:0:"";s:8:"position";i:10;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:15:"pa_saugleistung";a:6:{s:4:"name";s:15:"pa_saugleistung";s:5:"value";s:0:"";s:8:"position";i:11;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:14:"pa_saugstaerke";a:6:{s:4:"name";s:14:"pa_saugstaerke";s:5:"value";s:0:"";s:8:"position";i:12;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:22:"pa_masse-des-produktes";a:6:{s:4:"name";s:22:"pa_masse-des-produktes";s:5:"value";s:0:"";s:8:"position";i:13;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:26:"pa_bruttogewicht-inkl-verp";a:6:{s:4:"name";s:26:"pa_bruttogewicht-inkl-verp";s:5:"value";s:0:"";s:8:"position";i:14;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[256]]></id>
+		<title><![CDATA[ZB 7225 1x E12 Abluftfilter & 1x Motorschutzfilter]]></title>
+		<content><![CDATA[Das 2-teilige Filterset besteht aus einem E12 Abluftfilter  und einem Motorschutzfilter. Der Motorfilter schützt den Akkustaubsauger HV 7166 langfristig und sorgt für eine längere Lebensdauer des Staubsaugers. Er verhindert Beschädigungen des Motors durch feinen Staub. Der Abluftfilter sorgt für eine Filtration von 99,5% aller Allergene und Feinstaubpartikel.]]></content>
+		<sku><![CDATA[7225000]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[]]></productattributes>
+	</node>
+	<node>
+		<id><![CDATA[326]]></id>
+		<title><![CDATA[Toaster Bundle]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[bundle]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<produktakku><![CDATA[]]></produktakku>
+		<produktanzahlaufstze><![CDATA[]]></produktanzahlaufstze>
+		<produktbruttogewichtinklverp><![CDATA[]]></produktbruttogewichtinklverp>
+		<produktfarbe><![CDATA[]]></produktfarbe>
+		<produktfassungsvermgen><![CDATA[]]></produktfassungsvermgen>
+		<produktfiltereinsatz><![CDATA[]]></produktfiltereinsatz>
+		<produktgeruschentwicklung><![CDATA[]]></produktgeruschentwicklung>
+		<produktgewicht><![CDATA[]]></produktgewicht>
+		<produktladezeit><![CDATA[]]></produktladezeit>
+		<produktlaufzeitleistungeco><![CDATA[]]></produktlaufzeitleistungeco>
+		<produktmassedesproduktes><![CDATA[]]></produktmassedesproduktes>
+		<produktsaugleistung><![CDATA[]]></produktsaugleistung>
+		<produktsaugstrke><![CDATA[]]></produktsaugstrke>
+		<produktsaugstufen><![CDATA[]]></produktsaugstufen>
+		<produktstaubbeutel><![CDATA[]]></produktstaubbeutel>
+		<produktstaubsaugertyp><![CDATA[]]></produktstaubsaugertyp>
+		<productattributes><![CDATA[]]></productattributes>
+	</node>
+</data>

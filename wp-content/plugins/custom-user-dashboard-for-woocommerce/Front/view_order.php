@@ -1,0 +1,58 @@
+<?php
+/**
+ * View Order
+ *
+ * Shows the details of a particular order on the account page.
+ *
+ * This template can be overridden by copying it to yourtheme/woocommerce/myaccount/view-order.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see     https://docs.woocommerce.com/document/template-structure/
+ * @package WooCommerce\Templates
+ * @version 3.0.0
+ */
+
+defined( 'ABSPATH' ) || exit;
+$order_woospca=wc_get_order($order_id);
+$notes = $order_woospca->get_customer_order_notes();
+?>
+<p>
+<?php
+printf(
+	/* translators: 1: order number 2: order date 3: order status */
+	esc_html__( 'Order #%1$s was placed on %2$s and is currently %3$s.', 'woocommerce' ),
+	'<mark class="order-number">' . filter_var($order_woospca->get_order_number()) . '</mark>', // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	'<mark class="order-date">' . filter_var(wc_format_datetime( $order_woospca->get_date_created() )) . '</mark>', // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	'<mark class="order-status">' . filter_var(wc_get_order_status_name( $order_woospca->get_status() )) . '</mark>' // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+);
+?>
+</p>
+
+<?php if ( $notes ) : ?>
+	<h2><?php esc_html_e( 'Order updates', 'woocommerce' ); ?></h2>
+	<ol class="woocommerce-OrderUpdates commentlist notes">
+		<?php foreach ( $notes as $note ) : ?>
+		<li class="woocommerce-OrderUpdate comment note">
+			<div class="woocommerce-OrderUpdate-inner comment_container">
+				<div class="woocommerce-OrderUpdate-text comment-text">
+					<p class="woocommerce-OrderUpdate-meta meta"><?php echo filter_var (date_i18n( esc_html__( 'l jS \o\f F Y, h:ia', 'woocommerce' ), strtotime( $note->comment_date ) )); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+					<div class="woocommerce-OrderUpdate-description description">
+						<?php echo filter_var(wpautop( wptexturize( $note->comment_content ) )); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</li>
+		<?php endforeach; ?>
+	</ol>
+<?php endif; ?>
+
+<?php do_action( 'woocommerce_view_order', $order_id ); ?>
+<br>
+<a class="button-primary b2allorders" href="<?php echo filter_var( wc_get_page_permalink( 'myaccount' ) ); ?>?b=7">Back To All Orders</a>

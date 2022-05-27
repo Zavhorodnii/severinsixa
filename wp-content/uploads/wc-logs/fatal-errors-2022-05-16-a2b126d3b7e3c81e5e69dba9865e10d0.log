@@ -1,0 +1,36 @@
+2022-05-16T14:44:40+00:00 CRITICAL syntax error, unexpected token ";", expecting "]" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php in Zeile 51
+
+2022-05-16T14:44:45+00:00 CRITICAL syntax error, unexpected token ";", expecting "]" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php in Zeile 51
+
+2022-05-16T16:17:11+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:18:05+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:18:08+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:18:20+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:19:11+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:20:06+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:20:09+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T16:20:21+00:00 CRITICAL syntax error, unexpected token "return" in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php on line 158
+
+2022-05-16T20:04:09+00:00 CRITICAL Uncaught TypeError: get_query(): Return value must be of type array, WP_Query returned in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php:176
+Stack trace:
+#0 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php(102): get_query()
+#1 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\templates\Category.php(81): get_product_by_get_params()
+#2 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(424): BlogSectionProductProductGridFilter->render()
+#3 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block()
+#4 D:\programming\OpenServer\domains\severinsixa\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block()
+#5 D:\programming\OpenServer\domains\severinsixa\wp-includes\class-wp-block.php(255): acf_render_block_callback()
+#6 D:\programming\OpenServer\domains\severinsixa\wp-includes\blocks.php(883): WP_Block->render()
+#7 D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\taxonomy-product_cat.php(14): render_block()
+#8 D:\programming\OpenServer\domains\severinsixa\wp-includes\template-loader.php(106): include('D:\\programming\\...')
+#9 D:\programming\OpenServer\domains\severinsixa\wp-blog-header.php(19): require_once('D:\\programming\\...')
+#10 D:\programming\OpenServer\domains\severinsixa\index.php(17): require('D:\\programming\\...')
+#11 {main}
+  thrown in D:\programming\OpenServer\domains\severinsixa\wp-content\themes\severinsixa\create_query_args.php in Zeile 176
+

@@ -1,0 +1,151 @@
+.card-sec {
+  margin-bottom: 50px;
+}
+
+.card-sec__wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.card-prod {
+  width: calc(33% - 18px);
+}
+
+.card-prod__price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-top: 15px;
+}
+
+.card-prod__code {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #C6CACE;
+}
+
+.card-prod__star {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  white-space: nowrap;
+}
+.card-prod__star img {
+  margin-right: 5px;
+}
+
+.card-prod__img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-prod__img.long-img {
+  height: 300px;
+}
+.card-prod__img.small-img {
+  height: 254px;
+}
+.card-prod__img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card-prod__btn {
+  margin: 20px auto 0 auto;
+  padding: 15px;
+}
+
+.card-prod__bottom {
+  margin-top: 30px;
+  width: calc(100% + 30px);
+  transform: translateX(-15px);
+}
+.card-prod__bottom div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #C6CACE;
+}
+.card-prod__bottom div:last-child {
+  border-bottom: none;
+}
+.card-prod__bottom div span {
+  display: block;
+}
+.card-prod__bottom div span:first-child {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 120%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+  margin-bottom: 5px;
+}
+.card-prod__bottom div span:last-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #2D2D2D;
+}
+
+@media (max-width: 900px) {
+  .card-prod .choices__input {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card-prod {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 580px) {
+  .card-prod__img.long-img {
+    height: 177px;
+  }
+
+  .card-prod__img.small-img {
+    height: 177px;
+  }
+
+  .card-prod {
+    display: none;
+  }
+  .card-prod:nth-child(-n+2) {
+    display: block;
+  }
+
+  .card-sec__wrapper {
+    gap: 20px;
+  }
+
+  .card-prod__star img {
+    width: 100px;
+  }
+
+  .card-sec {
+    margin-bottom: 40px;
+  }
+}

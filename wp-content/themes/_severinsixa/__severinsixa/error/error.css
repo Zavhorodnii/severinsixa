@@ -1,0 +1,20 @@
+.error {
+    position: absolute;
+    top: 186px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .error img {
+    -o-object-position: center;
+    object-position: center;
+  }
+  @media (min-width: 1921px) {
+    .error img {
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+  }
+  .error--two {
+    background: #F3F3F3;
+  }
